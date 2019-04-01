@@ -31,7 +31,7 @@ if (userAgent.indexOf('iPhone') == -1){
    app.message = '当前设备不支持安装';
 }else{
    try{ 
-      window.location.href = "itms-services://?action=download-manifest&url=https://www.istpaytech.com/app/coinx/manifest.plist"
+      window.location.href = "itms-services://?action=download-manifest&url=https://www.istpaytech.com/app/ios/coinx/manifest.plist"
    }catch(e){
       alert(e);
    }
